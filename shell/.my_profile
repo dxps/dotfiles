@@ -1,0 +1,60 @@
+
+## starship shell
+eval "$(starship init bash)"
+
+export PATH=$PATH:$HOME/apps/bin
+
+## Docker
+alias dockerps="docker ps --format 'table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}'"
+alias dockerpsa="docker ps -a --format 'table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}'"
+
+## GitLab
+source ~/.my_gitlab_token.sh 
+
+## Flutter
+export PATH=$PATH:$HOME/apps/flutter/bin
+
+## Golang
+export PATH=$PATH:$HOME/apps/go/bin:$HOME/go/bin
+export PATH=$PATH:$HOME/apps/protoc/bin
+
+## Java
+export PATH=$PATH:$HOME/apps/maven/bin:$HOME/go/bin
+
+## kubectl, kind, istio
+## --------------------
+source <(kubectl completion bash)
+alias k=kubectl
+complete -o default -F __start_kubectl k
+source ~/.kind-completion
+export PATH="$PATH:/home/dxps/apps/istio-1.15.1/bin"
+## old (minikube)
+## alias mktl="microk8s.kubectl"
+
+## Linux
+alias fp-ug='flatpak repair && flatpak uninstall --unused && flatpak upgrade'
+
+## Nix Package Manager
+. /home/dxps/.nix-profile/etc/profile.d/nix.sh
+
+## Node
+export PATH=$PATH:$HOME/apps/node/bin
+export PATH="$PATH:$(npm config get prefix)/bin"
+
+## Python installed PIPs
+## (ex: python3 -m pip install --user qmk)
+export PATH=$PATH:$HOME/.local/bin
+
+## Rust
+source $HOME/.cargo/env
+
+## VSCode
+export PATH=$PATH:$HOME/apps/vscode/bin
+
+## Blockchain :: Solana
+export PATH=$PATH:$HOME/.local/share/solana/install/active_release/bin/
+
+## V lang
+export PATH=$PATH:$HOME/apps/v
+
+
