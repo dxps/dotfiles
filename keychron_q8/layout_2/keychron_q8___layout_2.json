@@ -9,7 +9,7 @@
     "{KC_LCTL,KC_C}",
     "{KC_LCTL,KC_V}",
     "{KC_LCTL,KC_F}",
-    "{KC_RALT,KC_TAB}",
+    "{KC_LALT, KC_TAB}",
     "{KC_LCTL,KC_T}",
     "",
     "",
