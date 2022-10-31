@@ -12,8 +12,8 @@ Just to remember:
 
 ## Current Layers
 
-The current layout (#2) has these layers (relevant for Linux/Win) defined:
+The current layout (#3) has these layers (relevant for Linux/Win) defined:
 
-![](./layout_2/layer_1.png)
-![](./layout_2/layer_3.png)
-![](./layout_2/layer_4.png)
+![](./layout_3/layout_3_layer_1.png)
+![](./layout_3/layout_3_layer_3.png)
+![](./layout_3/layout_3_layer_4.png)
