@@ -4,8 +4,8 @@
   "userConfigPatchVersion": 0,
   "deviceName": "My UHK",
   "doubleTapSwitchLayerTimeout": 250,
-  "iconsAndLayerTextsBrightness": 1,
-  "alphanumericSegmentsBrightness": 1,
+  "iconsAndLayerTextsBrightness": 4,
+  "alphanumericSegmentsBrightness": 0,
   "keyBacklightBrightness": 0,
   "mouseMoveInitialSpeed": 4,
   "mouseMoveAcceleration": 68,
@@ -6252,7 +6252,11 @@
                   "type": "basic",
                   "modifierMask": 4
                 },
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 8
+                },
                 null,
                 {
                   "keyActionType": "switchLayer",
@@ -6380,26 +6384,11 @@
               "keyActions": [
                 null,
                 null,
-                {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "DVO"
-                },
-                {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "COL"
-                },
-                {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "QWM"
-                },
-                {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "DVM"
-                },
-                {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "COM"
-                },
+                null,
+                null,
+                null,
+                null,
+                null,
                 null,
                 null,
                 null,
