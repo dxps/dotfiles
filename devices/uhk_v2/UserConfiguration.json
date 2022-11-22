@@ -6160,7 +6160,12 @@
                   "type": "basic",
                   "scancode": 63
                 },
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 43,
+                  "modifierMask": 4
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -6301,6 +6306,7 @@
                 null,
                 null,
                 null,
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "media",
@@ -6309,9 +6315,8 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "media",
-                  "scancode": 233
+                  "scancode": 183
                 },
-                null,
                 null,
                 null,
                 null,
@@ -6324,12 +6329,12 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "media",
-                  "scancode": 182
+                  "scancode": 234
                 },
                 {
                   "keyActionType": "keystroke",
                   "type": "media",
-                  "scancode": 234
+                  "scancode": 233
                 },
                 {
                   "keyActionType": "keystroke",
@@ -6339,14 +6344,18 @@
                 null,
                 null,
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "media",
+                  "scancode": 182
+                },
                 null,
                 {
                   "keyActionType": "keystroke",
                   "type": "media",
                   "scancode": 226
                 },
+                null,
                 null,
                 null,
                 {
