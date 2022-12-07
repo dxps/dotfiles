@@ -391,7 +391,7 @@
       "KC_PGUP",
       "KC_TRNS",
       "KC_TRNS",
-      "KC_TRNS",
+      "KC_LGUI",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
@@ -404,6 +404,15 @@
       "KC_HOME",
       "KC_PGDN",
       "KC_END"
+    ]
+  ],
+  "encoders": [
+    [
+      ["KC_VOLD", "KC_VOLU"],
+      ["KC_VOLD", "KC_VOLU"],
+      ["RGB_VAD", "RGB_VAI"],
+      ["RGB_VAD", "RGB_VAI"],
+      ["KC_TRNS", "KC_TRNS"]
     ]
   ]
 }
