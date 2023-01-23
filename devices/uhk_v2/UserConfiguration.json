@@ -4,7 +4,7 @@
   "userConfigPatchVersion": 0,
   "deviceName": "My UHK",
   "doubleTapSwitchLayerTimeout": 250,
-  "iconsAndLayerTextsBrightness": 4,
+  "iconsAndLayerTextsBrightness": 1,
   "alphanumericSegmentsBrightness": 0,
   "keyBacklightBrightness": 0,
   "mouseMoveInitialSpeed": 4,
@@ -6128,7 +6128,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 53
+                  "scancode": 41
                 },
                 {
                   "keyActionType": "keystroke",
@@ -6168,10 +6168,14 @@
                 },
                 {
                   "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 41
+                  "type": "media",
+                  "scancode": 234
                 },
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "media",
+                  "scancode": 233
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
