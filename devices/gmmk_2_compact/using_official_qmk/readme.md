@@ -4,6 +4,8 @@ This is the latest keymap used in my black version of GMMK 2 Compact (65%), ANSI
 
 Following my guide of setting up the official QMK firmware, and just adapted the `udev` rules, as documented in my guide for [GMMK 2 Compact using GloriousThrall QMK](https://gloriousforum.com/t/qmk-install-keymap-guide-for-gmmk-2-compact-on-ubuntu-distros/14529).
 
+Now, trying using the official QMK firmware, that is initializing using `qmk setup`.
+
 <br/>
 
 ### Keymaps
