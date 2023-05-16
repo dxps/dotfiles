@@ -5903,14 +5903,14 @@
                   "scancode": 5
                 },
                 {
-                  "keyActionType": "switchLayer",
-                  "layer": "fn",
-                  "switchLayerMode": "hold"
-                },
-                {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "modifierMask": 8
+                },
+                {
+                  "keyActionType": "switchLayer",
+                  "layer": "fn",
+                  "switchLayerMode": "hold"
                 },
                 {
                   "keyActionType": "keystroke",
@@ -6427,15 +6427,11 @@
                 null,
                 null,
                 null,
+                null,
                 {
                   "keyActionType": "switchLayer",
                   "layer": "fn",
                   "switchLayerMode": "hold"
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 8
                 },
                 {
                   "keyActionType": "keystroke",
