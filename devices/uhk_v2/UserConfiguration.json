@@ -6017,12 +6017,12 @@
                   "type": "basic",
                   "scancode": 53
                 },
-                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 76
+                  "scancode": 42
                 },
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
