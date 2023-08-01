@@ -1,0 +1,6 @@
+[mono]>[0][255][0]
+[mono_edge]>[0][255][0]
+fn [mono]>[0][255][0]
+fn [breathe]>[spd5]
+fn [mono_edge]>[0][255][0]
+fn [breathe_edge]>[spd5]

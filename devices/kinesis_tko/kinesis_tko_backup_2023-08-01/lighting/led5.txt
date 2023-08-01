@@ -1,0 +1,4 @@
+[rebound]>[dirleft][spd5][128][0][255]
+[mono_edge]>[128][0][255]
+fn [mono]>[128][0][255]
+fn [rebound_edge]>[spd8][128][0][255]

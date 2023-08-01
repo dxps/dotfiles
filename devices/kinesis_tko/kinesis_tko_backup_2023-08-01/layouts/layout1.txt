@@ -1,0 +1,45 @@
+[lctrl]>[lwin]
+[lwin]>[alt]
+[lalt]>[ctrl]
+[lspc]>[fnshf]
+[mspc]>[lctrl]
+[ralt]>[rmous]
+[rctrl]>[F5]
+fn [lmous]>[null]
+fn [play]>[null]
+fn [prev]>[null]
+fn [next]>[null]
+fn [LED]>[null]
+fn [ins]>[null]
+fn [calc]>[null]
+fn [up]>[tilde]
+fn [pause]>[null]
+fn [pup]>[null]
+fn [home]>[null]
+fn [prnt]>[null]
+fn [rmous]>[null]
+fn {rmous}>{s5}{x1}{-ctrl}{a}{+ctrl}
+fn [mute]>[null]
+fn {mute}>{s5}{x1}{-ctrl}{s}{+ctrl}
+fn [vol-]>[del]
+fn [vol+]>[null]
+fn {vol+}>{s5}{x1}{-ctrl}{f}{+ctrl}
+fn [scrlk]>[lft]
+fn [lft]>[dwn]
+fn [dwn]>[up]
+fn [pdn]>[end]
+fn [end]>[null]
+fn {z}>{s5}{x1}{-ctrl}{z}{+ctrl}
+fn {x}>{s5}{x1}{-ctrl}{x}{+ctrl}
+fn {c}>{s5}{x1}{-ctrl}{c}{+ctrl}
+fn {v}>{s5}{x1}{-ctrl}{v}{+ctrl}
+fn [b]>[null]
+fn [m]>[home]
+fn [com]>[vol-]
+fn [per]>[vol+]
+fn [/]>[mute]
+fn [lctrl]>[null]
+fn [lwin]>[null]
+fn [lalt]>[null]
+fn [lspc]>[fnshf]
+fn {rspc}>{s5}{x1}{-lwin}{spc}{+lwin}

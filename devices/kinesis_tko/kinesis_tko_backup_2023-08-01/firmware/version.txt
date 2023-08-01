@@ -1,0 +1,4 @@
+Model name: TKO
+KBD Firmware: 1.0.1.us (4MB), 11/18/2020
+LED Firmware: 1.0.0
+LED Bootloader: 1.0

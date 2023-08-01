@@ -1,0 +1,2 @@
+[wave_edge]>[spd5][dirleft]
+fn [wave_edge]>[spd9][dirleft]
