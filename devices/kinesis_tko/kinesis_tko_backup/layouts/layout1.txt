@@ -40,6 +40,7 @@ fn [per]>[vol+]
 fn [/]>[mute]
 fn [lctrl]>[null]
 fn [lwin]>[null]
-fn [lalt]>[null]
+fn [lalt]>[ctrl]
 fn [lspc]>[fnshf]
+fn [mspc]>[lalt]
 fn {rspc}>{s5}{x1}{-lwin}{spc}{+lwin}

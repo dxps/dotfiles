@@ -1,6 +1,8 @@
 ## Kinesis TKO
 
-Copied into [kinesis_tko_backup_2023-08-01](./kinesis_tko_backup_2023-08-01/) as backup the main settings that exist in its v-drive.
+As a backup, the main settings (at least the 1st layout) were copied from its v-drive into [kinesis_tko_backup](./kinesis_tko_backup/) folder.
+
+<br/>
 
 ### The (Key Mapping) Layers
 
@@ -8,11 +10,11 @@ This keyboard has two layers: a "top" one, and a "fn" one. Here is the visual re
 
 ##### Top layer
 
-![Top layer](1_kinesis_tko_top_layer_2023-08-01.png)
+![Top layer](1_kinesis_tko_top_layer.png)
 
 ##### Fn layer
 
-![Fn layer](./2_kinesis_tko_fn_layer_2023-08-01.png)
+![Fn layer](./2_kinesis_tko_fn_layer.png)
 
 <br/>
 
