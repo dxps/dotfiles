@@ -2,7 +2,7 @@
 [lwin]>[alt]
 [lalt]>[ctrl]
 [lspc]>[fnshf]
-[mspc]>[lctrl]
+[mspc]>[lalt]
 [ralt]>[rmous]
 [rctrl]>[F5]
 fn [lmous]>[null]
