@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Archi
+Icon=/home/dxps/apps/archi/icon.xpm
+Exec="/home/dxps/apps/archi/Archi.sh" %f
+Comment=Archi tool
+Categories=Development;IDE;
+Terminal=false
+StartupWMClass=archi
+StartupNotify=false
