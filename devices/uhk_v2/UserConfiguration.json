@@ -6,7 +6,7 @@
   "doubleTapSwitchLayerTimeout": 250,
   "iconsAndLayerTextsBrightness": 1,
   "alphanumericSegmentsBrightness": 0,
-  "keyBacklightBrightness": 8,
+  "keyBacklightBrightness": 40,
   "ledsFadeTimeout": 180,
   "perKeyRgbPresent": true,
   "backlightingMode": "PerKeyBacklighting",
@@ -107,7 +107,7 @@
       "navigationModeFn3Layer": "Cursor",
       "navigationModeFn4Layer": "Cursor",
       "navigationModeFn5Layer": "Cursor",
-      "speed": 0.7,
+      "speed": 0.699999988079071,
       "baseSpeed": 0.5,
       "xceleration": 1,
       "scrollSpeedDivisor": 8,
@@ -11482,49 +11482,49 @@
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 36,
-                  "b": 0,
-                  "g": 0,
-                  "r": 0
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
                 },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 37,
-                  "b": 0,
-                  "g": 0,
-                  "r": 0
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
                 },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 38,
-                  "b": 0,
-                  "g": 0,
-                  "r": 0
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
                 },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 39,
-                  "b": 0,
-                  "g": 0,
-                  "r": 0
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
                 },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 45,
-                  "b": 0,
-                  "g": 0,
-                  "r": 0
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
                 },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 46,
-                  "b": 0,
-                  "g": 0,
-                  "r": 0
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
                 },
                 {
                   "keyActionType": "keystroke",
@@ -11774,49 +11774,49 @@
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 30,
-                  "b": 0,
-                  "g": 0,
-                  "r": 0
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
                 },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 31,
-                  "b": 0,
-                  "g": 0,
-                  "r": 0
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
                 },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 32,
-                  "b": 0,
-                  "g": 0,
-                  "r": 0
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
                 },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 33,
-                  "b": 0,
-                  "g": 0,
-                  "r": 0
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
                 },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 34,
-                  "b": 0,
-                  "g": 0,
-                  "r": 0
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
                 },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 35,
-                  "b": 0,
-                  "g": 0,
-                  "r": 0
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
                 },
                 {
                   "keyActionType": "keystroke",
@@ -12164,7 +12164,7 @@
                   "type": "basic",
                   "scancode": 53,
                   "b": 0,
-                  "g": 255,
+                  "g": 0,
                   "r": 0
                 },
                 {
@@ -12172,7 +12172,7 @@
                   "type": "basic",
                   "scancode": 42,
                   "b": 0,
-                  "g": 255,
+                  "g": 0,
                   "r": 0
                 },
                 {
@@ -12437,7 +12437,7 @@
                   "type": "media",
                   "scancode": 234,
                   "b": 0,
-                  "g": 255,
+                  "g": 0,
                   "r": 0
                 },
                 {
@@ -12445,7 +12445,7 @@
                   "type": "media",
                   "scancode": 233,
                   "b": 0,
-                  "g": 255,
+                  "g": 0,
                   "r": 0
                 },
                 {
@@ -12454,7 +12454,7 @@
                   "scancode": 23,
                   "modifierMask": 1,
                   "b": 0,
-                  "g": 255,
+                  "g": 0,
                   "r": 0
                 },
                 {
@@ -12489,7 +12489,7 @@
                   "scancode": 4,
                   "modifierMask": 1,
                   "b": 0,
-                  "g": 255,
+                  "g": 0,
                   "r": 0
                 },
                 {
@@ -12498,7 +12498,7 @@
                   "scancode": 22,
                   "modifierMask": 1,
                   "b": 0,
-                  "g": 255,
+                  "g": 0,
                   "r": 0
                 },
                 {
@@ -12506,7 +12506,7 @@
                   "type": "basic",
                   "scancode": 76,
                   "b": 0,
-                  "g": 255,
+                  "g": 0,
                   "r": 0
                 },
                 {
@@ -12515,7 +12515,7 @@
                   "scancode": 9,
                   "modifierMask": 1,
                   "b": 0,
-                  "g": 255,
+                  "g": 0,
                   "r": 0
                 },
                 {
@@ -12550,7 +12550,7 @@
                   "scancode": 29,
                   "modifierMask": 1,
                   "b": 0,
-                  "g": 255,
+                  "g": 0,
                   "r": 0
                 },
                 {
@@ -12559,7 +12559,7 @@
                   "scancode": 27,
                   "modifierMask": 1,
                   "b": 0,
-                  "g": 255,
+                  "g": 0,
                   "r": 0
                 },
                 {
@@ -12568,7 +12568,7 @@
                   "scancode": 6,
                   "modifierMask": 1,
                   "b": 0,
-                  "g": 255,
+                  "g": 0,
                   "r": 0
                 },
                 {
@@ -12577,7 +12577,7 @@
                   "scancode": 25,
                   "modifierMask": 1,
                   "b": 0,
-                  "g": 255,
+                  "g": 0,
                   "r": 0
                 },
                 {
