@@ -7514,7 +7514,9 @@
                   "modifierMask": 1
                 },
                 {
-                  "keyActionType": "none"
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
                 },
                 {
                   "keyActionType": "none"
