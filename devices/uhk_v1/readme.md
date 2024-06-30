@@ -2,6 +2,7 @@
 
 This is my Ultimate Hacking Keyboard (UHK) v1 configuration, exported from the UHK Agent tool as `UserConfiguration.json` file.
 
+The firmware installed is at version `11.1.1`.
 <br/>
 
 ### The Layers
