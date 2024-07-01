@@ -12451,7 +12451,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 23,
+                  "scancode": 42,
                   "modifierMask": 1,
                   "b": 0,
                   "g": 0,
