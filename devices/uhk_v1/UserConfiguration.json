@@ -7355,7 +7355,10 @@
                   "keyActionType": "none"
                 },
                 {
-                  "keyActionType": "none"
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 19,
+                  "modifierMask": 4
                 },
                 {
                   "keyActionType": "none"
@@ -7634,7 +7637,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 42
+                  "modifierMask": 4
                 },
                 {
                   "keyActionType": "keystroke",
