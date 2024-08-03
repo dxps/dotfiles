@@ -1,20 +1,35 @@
 
+## --------------
 ## Starship shell
 ## --------------
 eval "$(starship init bash)"
 
+
+## ------------------------------
 ## Shell aliases & customizations
 ## ------------------------------
 alias toffs="~/apps/bin/turn-off-screens.sh"
 alias eth-reload="sudo modprobe -r alx && sleep 3 && sudo modprobe alx"
 alias sound-restart="systemctl --user restart pipewire pipewire-pulse wireplumber"
+alias dolphin="dolphin -stylesheet /home/dxps/dev/dxps_gh/design-assets/dolphin/dolphin.css"
 ## Make directories listed as non bold on light green.
 export LS_COLORS="$LS_COLORS:di=0;92"
 
+
+##--------
 ## Commons
 ##--------
 export PATH=$PATH:$HOME/apps/bin
 
+
+## -------
+## AI / ML
+## -------
+## export LIBTORCH=/home/dxps/apps/libtorch-200-cu118
+## export LD_LIBRARY_PATH=${LIBTORCH}/lib:$LD_LIBRARY_PATH
+
+
+## ------
 ## Docker
 ## ------
 alias dockerps="docker ps --format 'table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}'"
@@ -23,60 +38,103 @@ docker-cleanup () {
     echo "Stopping ... " && docker stop $(docker ps -a -q) && echo "Removing ... " && docker rm $(docker ps -a -q)
 }
 
-## GitLab
-## ------
-source ~/.my_gitlab_token.sh
 
+## -------
 ## Flutter
 ## -------
 export PATH=$PATH:$HOME/apps/flutter/bin
+export PATH=$PATH:$HOME/.pub-cache/bin
 
+
+## ------
+## Git
+## ------
+alias gp="git push" # + remote & branch names
+alias gl="git pull" # + remote & branch names
+## Add, commit, push. Usage ex: gac "notes sync"
+gacp() { 
+  if [ "$#" -eq 1 ]; then
+     echo ">>> Commit msg = '$1'"
+     git add . && git commit -m "$1" && git push
+  else
+     echo " Usage error: missing the commit message."
+     echo " Usage example: gacp \"notes sync\""
+  fi
+
+}
+## To create a new branch and checkout into it.
+alias gcb="git checkout -b" # + branch name
+
+
+## ------
 ## Golang
 ## ------
 export PATH=$PATH:$HOME/apps/go/bin:$HOME/go/bin
 export PATH=$PATH:$HOME/apps/protoc/bin
 
+
+## ----
 ## Java
 ## ----
-export JAVA_HOME=/usr/lib/jvm/java-1.17.0-openjdk-amd64
-export MAVEN_HOME=/home/dxps/apps/maven
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+export MAVEN_HOME=${HOME}/apps/maven
 export PATH="$PATH:${JAVA_HOME}/bin:${MAVEN_HOME}/bin"
 
-## kubectl, kind, istio
-## --------------------
-alias k=kubectl
-source <(kubectl completion bash)
-complete -o default -F __start_kubectl k
-## Created using: kind completion bash > ~/.kind-completion
-source ~/.kind-completion
-export PATH="$PATH:/home/dxps/apps/istio-1.15.1/bin"
 
+## -------------------------
+## kubectl, k3d, kind, istio
+## -------------------------
+alias k=kubectl
+##source <(kubectl completion bash)
+complete -o default -F __start_kubectl k
+source <(k3d completion bash)
+
+
+## -----
 ## Linux
 ## -----
 alias fp-ug='flatpak repair && flatpak uninstall --unused && flatpak upgrade'
 
+
+## -------------------
 ## Nix Package Manager
 ## -------------------
 ## Not installed on dxps workstation.
 ## . /home/dxps/.nix-profile/etc/profile.d/nix.sh
 
-## Node.js, yarn
-## -------------
-export PATH=$PATH:$HOME/apps/node/bin
-export PATH="$PATH:$(npm config get prefix)/bin"
-export PATH="$PATH:$(yarn global bin)"
-export PATH="$PATH:$(npm config get prefix)/bin"
 
+## --------------------
+## Node Version Manager
+## --------------------
+# export PATH=$PATH:${HOME}/apps/node/bin
+# export PATH="$PATH:$(npm config get prefix)/bin"
+# export PATH="$PATH:$(yarn global bin)"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+## ---------------------
 ## Python installed PIPs
 ## ---------------------
 ## (ex: python3 -m pip install --user qmk)
 export PATH=$PATH:$HOME/.local/bin
 
+
+## -----
+## Redis
+## -----
+export PATH=$PATH:$HOME/apps/redis-stack-server/bin
+
+## ----
 ## Rust
 ## ----
 source $HOME/.cargo/env
 
+
+## ---------
 ## Wasme CLI
 ## ---------
-export PATH=$HOME/.wasme/bin:$PATH 
+## export PATH=$HOME/.wasme/bin:$PATH 
+
 
