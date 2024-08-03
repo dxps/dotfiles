@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Dolphin
+Icon=system-file-manager
+Exec=dolphin -stylesheet /home/dxps/dev/dxps_gh/design-assets/dolphin/dolphin.css
+Comment=Dolphin File Manager
+Categories=FileManager;
+Terminal=false
+StartupWMClass=dolphin

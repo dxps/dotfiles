@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Turn Off Screens
+Categories=Utility
+X-GNOME-FullName[en_US]=Turn Off Screens
+Comment[en_US]=
+Icon=application-x-executable
+NoDisplay=false
+Exec=sh -c "xset dpms force off"
+Path=/tmp
+Terminal=true
+StartupNotify=false
+X-GNOME-UsesNotifications=false
