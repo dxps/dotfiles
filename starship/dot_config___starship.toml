@@ -1,0 +1,28 @@
+add_newline = false
+format = """$directory\
+$git_branch\
+$git_status\
+$sudo\
+$cmd_duration\
+$character"""
+
+[cmd_duration]
+min_time = 1000
+format = "[took $duration](bold yellow)"
+
+[directory]
+truncation_length = 1
+truncation_symbol = "…/"
+
+[line_break]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[git_branch]
+## symbol = ""
+
+[package]
+disabled = true
+
