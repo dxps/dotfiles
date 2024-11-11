@@ -49,12 +49,12 @@ export PATH=$PATH:$HOME/.pub-cache/bin
 ## ------
 ## Git
 ## ------
-alias gp="git push" # + remote & branch names
-alias gl="git pull" # + remote & branch names
-## Add, commit, push. Usage ex: gac "notes sync"
-gacp() { 
+alias gtst="git status"
+alias gtpu="git push" # + remote & branch names
+alias gtpl="git pull" # + remote & branch names
+## Add, commit, push. Usage ex: gtacp "notes sync"
+gtacp() { 
   if [ "$#" -eq 1 ]; then
-     echo ">>> Commit msg = '$1'"
      git add . && git commit -m "$1" && git push
   else
      echo " Usage error: missing the commit message."
