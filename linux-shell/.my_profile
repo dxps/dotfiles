@@ -1,27 +1,30 @@
 
-## Starship shell
-## --------------
-eval "$(starship init bash)"
 
-## Shell aliases & customizations
+
+## Shells
 ## ------------------------------
+## Init Starship.
+eval "$(starship init bash)"
+export PATH=$PATH:$HOME/apps/bin
 alias toffs="~/apps/bin/turn-off-screens.sh"
 alias eth-reload="sudo modprobe -r alx && sleep 3 && sudo modprobe alx"
 alias sound-restart="systemctl --user restart pipewire pipewire-pulse wireplumber"
 ## Make directories listed as non bold on light green.
 export LS_COLORS="$LS_COLORS:di=0;92"
-## Set up fzf key bindings and fuzzy completion
-eval "$(/home/dxps/apps/bin/fzf --bash)"
+## Set up fzf key bindings and fuzzy completion.
+eval "$(fzf --bash)"
 
-## Commons
-##--------
-export PATH=$PATH:$HOME/apps/bin
-##export QT_QPA_PLATFORM=wayland
 
 ## AI / ML
 ## -------
 ## export LIBTORCH=/home/dxps/apps/libtorch-200-cu118
 ## export LD_LIBRARY_PATH=${LIBTORCH}/lib:$LD_LIBRARY_PATH
+
+
+## Debug
+## -----
+export PYTHONPATH="/usr/lib/llvm-15/lib/python3.10/dist-packages/:$PYTHONPATH"
+
 
 ## Docker
 ## ------
@@ -30,6 +33,13 @@ alias dockerpsa="docker ps -a --format 'table {{.ID}}\t{{.Names}}\t{{.Image}}\t{
 docker-cleanup () {
     echo "Stopping ... " && docker stop $(docker ps -a -q) && echo "Removing ... " && docker rm $(docker ps -a -q)
 }
+
+
+## Flutter
+## -------
+export PATH=$PATH:$HOME/apps/flutter/bin
+export PATH=$PATH:$HOME/.pub-cache/bin
+
 
 ## Git
 ## ------
@@ -49,27 +59,26 @@ gtacp() {
 ## To create a new branch and checkout into it.
 alias gcb="git checkout -b" # + branch name
 
+
 ## GitLab
 ## ------
 ##source ~/.my_gitlab_token.sh
 
-## Flutter
-## -------
-export PATH=$PATH:$HOME/apps/flutter/bin
-export PATH=$PATH:$HOME/.pub-cache/bin
 
 ## Golang
 ## ------
 export PATH=$PATH:$HOME/apps/protoc/bin
 ## export PATH=$PATH:$HOME/apps/go/bin:$HOME/go/bin
 ## Using https://github.com/udhos/update-golang
-##. /etc/profile.d/golang_path.sh
+## . /etc/profile.d/golang_path.sh
+
 
 ## Java
 ## ----
 export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
 export MAVEN_HOME=/home/dxps/apps/maven
 export PATH="$PATH:${JAVA_HOME}/bin:${MAVEN_HOME}/bin"
+
 
 ## kubectl, k3d, kind, istio
 ## -------------------------
@@ -79,40 +88,48 @@ alias k=kubectl
 ##source <(k3d completion bash)
 ## Created using: kind completion bash > ~/.kind-completion
 ##source ~/.kind-completion
-## export PATH="$PATH:/home/dxps/apps/istio-1.15.1/bin"
+# export PATH="$PATH:/home/dxps/apps/istio-1.15.1/bin"
+
 
 ## Linux
 ## -----
 alias fp-ug='flatpak repair && flatpak uninstall --unused && flatpak upgrade'
 
+
 ## Neovim
 ## ------
 export PATH=$PATH:/home/dxps/apps/nvim/bin
+
 
 ## Nix Package Manager
 ## -------------------
 ## Not installed on dxps workstation.
 ## . /home/dxps/.nix-profile/etc/profile.d/nix.sh
 
-## node.js, yarn
+
+## Node.js, yarn
 ## -------------
 # export PATH=$PATH:$HOME/apps/node/bin
 # export PATH="$PATH:$(npm config get prefix)/bin"
 # export PATH="$PATH:$(yarn global bin)"
 
+
 ## PostgreSQL
-## ---------------------
+## ----------
 export PATH=$PATH:/usr/lib/postgresql/16/bin
+
 
 ## Python installed PIPs
 ## ---------------------
 ## (ex: python3 -m pip install --user qmk)
 export PATH=$PATH:$HOME/.local/bin
 
+
 ##
 ## Redis
 ##
 export PATH=$PATH:${HOME}/apps/redis-stack-server/bin
+
 
 ## Rust
 ## ----
