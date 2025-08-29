@@ -898,7 +898,8 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 76,
+                  "scancode": 42,
+                  "modifierMask": 8,
                   "b": 0,
                   "g": 0,
                   "r": 0
@@ -1197,13 +1198,19 @@
                   "r": 0
                 },
                 {
-                  "keyActionType": "none",
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 21,
+                  "modifierMask": 8,
                   "b": 0,
                   "g": 0,
                   "r": 0
                 },
                 {
-                  "keyActionType": "none",
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 23,
+                  "modifierMask": 8,
                   "b": 0,
                   "g": 0,
                   "r": 0
@@ -1330,7 +1337,10 @@
                   "r": 0
                 },
                 {
-                  "keyActionType": "none",
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 15,
+                  "modifierMask": 8,
                   "b": 0,
                   "g": 0,
                   "r": 0
