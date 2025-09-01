@@ -746,7 +746,10 @@
                   "r": 0
                 },
                 {
-                  "keyActionType": "none",
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 44,
+                  "modifierMask": 8,
                   "b": 0,
                   "g": 0,
                   "r": 0
