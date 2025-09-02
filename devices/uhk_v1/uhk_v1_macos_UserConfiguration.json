@@ -1050,6 +1050,7 @@
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 56,
+                  "modifierMask": 8,
                   "b": 0,
                   "g": 0,
                   "r": 0
@@ -1065,8 +1066,8 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 44,
-                  "modifierMask": 8,
+                  "scancode": 15,
+                  "modifierMask": 10,
                   "b": 0,
                   "g": 0,
                   "r": 0
