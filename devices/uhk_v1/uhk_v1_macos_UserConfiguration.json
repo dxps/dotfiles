@@ -817,9 +817,9 @@
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "modifierMask": 8,
-                  "b": 255,
-                  "g": 255,
-                  "r": 255
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
                 },
                 {
                   "keyActionType": "mouse",
@@ -1067,7 +1067,7 @@
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 15,
-                  "modifierMask": 10,
+                  "modifierMask": 11,
                   "b": 0,
                   "g": 0,
                   "r": 0
@@ -1383,7 +1383,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "modifierMask": 4,
+                  "modifierMask": 12,
                   "b": 0,
                   "g": 0,
                   "r": 0
